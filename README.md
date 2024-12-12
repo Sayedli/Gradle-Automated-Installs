@@ -81,8 +81,8 @@ Author
 - **Sayed Ali**
 -----------------
 
-===================================
-Thank you for using the UW Apps Installer!
-===================================
+
+# Thank you for using the UW Apps Installer!
+
 
 
