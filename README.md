@@ -3,8 +3,8 @@ Automation scripts to silently install common UW applications using Gradle. Incl
 
 
 =====================
-Build Scripts for UW Apps
-===================
+Build Scripts for UW Apps===================
+
 
 This repository contains Gradle build scripts to automate the silent installation of common UW applications. These scripts are designed to make setup simple, efficient, and error-free.
 
