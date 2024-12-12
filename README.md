@@ -3,7 +3,7 @@ Automation scripts to silently install common UW applications using Gradle. Incl
 
 
 ===================================
-Gradle Build Scripts for UW Apps
+Build Scripts for UW Apps
 ===================================
 
 This repository contains Gradle build scripts to automate the silent installation of common UW applications. These scripts are designed to make setup simple, efficient, and error-free.
@@ -41,3 +41,48 @@ Included Apps
 Usage Instructions
 -----------------
 1. Clone or download this repository:
+
+2. Navigate to the folder containing the specific build script for the app you want to install.
+
+3. Place the required installer file(s) in the project directory:
+- Example: `Firefox Setup <version>.exe` for Firefox.
+
+4. Open a terminal in the folder and run:
+- Replace `<task_name>` with the desired task. For example:
+  - `installFirefox` for Mozilla Firefox.
+  - `installChrome` for Google Chrome.
+
+5. The script will:
+- Check if the app is already installed.
+- Perform a silent installation if not installed.
+- Provide error messages if anything goes wrong.
+
+-----------------
+Example Commands
+-----------------
+gradle installmsOffice- To install Microsoft Office:
+
+gradle installnpp - To install Notepad++:
+
+gradle installgit- To install Git:
+
+
+-----------------
+Notes
+-----------------
+- Ensure the installer file names match those specified in the build scripts.
+- You can modify the scripts to change default installation directories or settings.
+- For troubleshooting, enable debug mode using:
+
+
+-----------------
+Author
+-----------------
+- **Sayed Ali**
+-----------------
+
+===================================
+Thank you for using the UW Apps Installer!
+===================================
+
+
